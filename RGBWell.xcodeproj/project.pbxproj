@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2B85471C73ADD40047F524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B85461C73ADD40047F524 /* AppDelegate.swift */; };
+		FB2B85491C73ADD40047F524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2B85481C73ADD40047F524 /* Images.xcassets */; };
+		FB2B854C1C73ADD40047F524 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2B854A1C73ADD40047F524 /* MainMenu.xib */; };
+		FB2B85581C73ADD40047F524 /* RGBWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B85571C73ADD40047F524 /* RGBWellTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB2B85521C73ADD40047F524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2B85391C73ADD40047F524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2B85401C73ADD40047F524;
+			remoteInfo = RGBWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2B85411C73ADD40047F524 /* RGBWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2B85451C73ADD40047F524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2B85461C73ADD40047F524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB2B85481C73ADD40047F524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB2B854B1C73ADD40047F524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FB2B85511C73ADD40047F524 /* RGBWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2B85561C73ADD40047F524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2B85571C73ADD40047F524 /* RGBWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBWellTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2B853E1C73ADD40047F524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2B854E1C73ADD40047F524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2B85381C73ADD40047F524 = {
+			isa = PBXGroup;
+			children = (
+				FB2B85431C73ADD40047F524 /* RGBWell */,
+				FB2B85541C73ADD40047F524 /* RGBWellTests */,
+				FB2B85421C73ADD40047F524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2B85421C73ADD40047F524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B85411C73ADD40047F524 /* RGBWell.app */,
+				FB2B85511C73ADD40047F524 /* RGBWellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2B85431C73ADD40047F524 /* RGBWell */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B85461C73ADD40047F524 /* AppDelegate.swift */,
+				FB2B85481C73ADD40047F524 /* Images.xcassets */,
+				FB2B854A1C73ADD40047F524 /* MainMenu.xib */,
+				FB2B85441C73ADD40047F524 /* Supporting Files */,
+			);
+			path = RGBWell;
+			sourceTree = "<group>";
+		};
+		FB2B85441C73ADD40047F524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B85451C73ADD40047F524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB2B85541C73ADD40047F524 /* RGBWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B85571C73ADD40047F524 /* RGBWellTests.swift */,
+				FB2B85551C73ADD40047F524 /* Supporting Files */,
+			);
+			path = RGBWellTests;
+			sourceTree = "<group>";
+		};
+		FB2B85551C73ADD40047F524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2B85561C73ADD40047F524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2B85401C73ADD40047F524 /* RGBWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2B855B1C73ADD40047F524 /* Build configuration list for PBXNativeTarget "RGBWell" */;
+			buildPhases = (
+				FB2B853D1C73ADD40047F524 /* Sources */,
+				FB2B853E1C73ADD40047F524 /* Frameworks */,
+				FB2B853F1C73ADD40047F524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBWell;
+			productName = RGBWell;
+			productReference = FB2B85411C73ADD40047F524 /* RGBWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB2B85501C73ADD40047F524 /* RGBWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2B855E1C73ADD40047F524 /* Build configuration list for PBXNativeTarget "RGBWellTests" */;
+			buildPhases = (
+				FB2B854D1C73ADD40047F524 /* Sources */,
+				FB2B854E1C73ADD40047F524 /* Frameworks */,
+				FB2B854F1C73ADD40047F524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2B85531C73ADD40047F524 /* PBXTargetDependency */,
+			);
+			name = RGBWellTests;
+			productName = RGBWellTests;
+			productReference = FB2B85511C73ADD40047F524 /* RGBWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2B85391C73ADD40047F524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marco Herrera";
+				TargetAttributes = {
+					FB2B85401C73ADD40047F524 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FB2B85501C73ADD40047F524 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FB2B85401C73ADD40047F524;
+					};
+				};
+			};
+			buildConfigurationList = FB2B853C1C73ADD40047F524 /* Build configuration list for PBXProject "RGBWell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2B85381C73ADD40047F524;
+			productRefGroup = FB2B85421C73ADD40047F524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2B85401C73ADD40047F524 /* RGBWell */,
+				FB2B85501C73ADD40047F524 /* RGBWellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2B853F1C73ADD40047F524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2B85491C73ADD40047F524 /* Images.xcassets in Resources */,
+				FB2B854C1C73ADD40047F524 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2B854F1C73ADD40047F524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2B853D1C73ADD40047F524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2B85471C73ADD40047F524 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2B854D1C73ADD40047F524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2B85581C73ADD40047F524 /* RGBWellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB2B85531C73ADD40047F524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2B85401C73ADD40047F524 /* RGBWell */;
+			targetProxy = FB2B85521C73ADD40047F524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2B854A1C73ADD40047F524 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2B854B1C73ADD40047F524 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2B85591C73ADD40047F524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB2B855A1C73ADD40047F524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB2B855C1C73ADD40047F524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB2B855D1C73ADD40047F524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB2B855F1C73ADD40047F524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RGBWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBWell.app/Contents/MacOS/RGBWell";
+			};
+			name = Debug;
+		};
+		FB2B85601C73ADD40047F524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RGBWellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBWell.app/Contents/MacOS/RGBWell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2B853C1C73ADD40047F524 /* Build configuration list for PBXProject "RGBWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2B85591C73ADD40047F524 /* Debug */,
+				FB2B855A1C73ADD40047F524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2B855B1C73ADD40047F524 /* Build configuration list for PBXNativeTarget "RGBWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2B855C1C73ADD40047F524 /* Debug */,
+				FB2B855D1C73ADD40047F524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB2B855E1C73ADD40047F524 /* Build configuration list for PBXNativeTarget "RGBWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2B855F1C73ADD40047F524 /* Debug */,
+				FB2B85601C73ADD40047F524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2B85391C73ADD40047F524 /* Project object */;
+}
