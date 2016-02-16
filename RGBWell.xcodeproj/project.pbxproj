@@ -11,6 +11,8 @@
 		FB2B85491C73ADD40047F524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2B85481C73ADD40047F524 /* Images.xcassets */; };
 		FB2B854C1C73ADD40047F524 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2B854A1C73ADD40047F524 /* MainMenu.xib */; };
 		FB2B85581C73ADD40047F524 /* RGBWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B85571C73ADD40047F524 /* RGBWellTests.swift */; };
+		FB2B85621C73AE300047F524 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B85611C73AE300047F524 /* MainWindowController.swift */; };
+		FB2B85641C73AF260047F524 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2B85631C73AF260047F524 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		FB2B85511C73ADD40047F524 /* RGBWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2B85561C73ADD40047F524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2B85571C73ADD40047F524 /* RGBWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBWellTests.swift; sourceTree = "<group>"; };
+		FB2B85611C73AE300047F524 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		FB2B85631C73AF260047F524 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				FB2B85481C73ADD40047F524 /* Images.xcassets */,
 				FB2B854A1C73ADD40047F524 /* MainMenu.xib */,
 				FB2B85441C73ADD40047F524 /* Supporting Files */,
+				FB2B85611C73AE300047F524 /* MainWindowController.swift */,
+				FB2B85631C73AF260047F524 /* MainWindowController.xib */,
 			);
 			path = RGBWell;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2B85491C73ADD40047F524 /* Images.xcassets in Resources */,
+				FB2B85641C73AF260047F524 /* MainWindowController.xib in Resources */,
 				FB2B854C1C73ADD40047F524 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2B85621C73AE300047F524 /* MainWindowController.swift in Sources */,
 				FB2B85471C73ADD40047F524 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
