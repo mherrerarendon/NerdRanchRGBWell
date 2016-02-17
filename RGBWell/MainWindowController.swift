@@ -15,11 +15,22 @@ class MainWindowController: NSWindowController
     var b = 0.0
     var a = 1.0
     
+    @IBOutlet weak var rSlider: NSSlider!
+    @IBOutlet weak var gSlider: NSSlider!
+    @IBOutlet weak var bSlider: NSSlider!
     @IBOutlet weak var colorWell: NSColorWell!
     
     override var windowNibName: String?
     {
         return "MainWindowController"
+    }
+    override func windowDidLoad()
+    {
+        super.windowDidLoad()
+        rSlider.doubleValue = r
+        gSlider.doubleValue = g
+        bSlider.doubleValue = b
+        updateColor()
     }
     
     @IBAction func adjustRed(sender: NSSlider)
